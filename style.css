@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/bg.png);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Overpass", sans-serif;
+}
+
+.wrapper {
+  width: 300px;
+  height: 480px;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, rgba(252, 252, 252, 0.4), rgba(252, 252, 252, 0.1));
+  backdrop-filter: blur(45px);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.screen {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 270px;
+  height: 92px;
+  font-size: 32px;
+  line-height: 32px;
+  overflow: hidden;
+}
+
+.calculation {
+  font-size: 26px;
+  line-height: 26px;
+  color: #626262;
+  margin-top: 16px;
+  margin-right: 7px;
+}
+
+.result {
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-right: 4px;
+}
+
+.calc-buttons {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  height: 340px;
+  margin-top: 18px;
+}
+
+.calc-button-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.calc-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Overpass", sans-serif;
+  font-size: 32px;
+  line-height: 66px;
+  text-align: center;
+  background: linear-gradient(292.22deg, #fcffff 5.69%, rgba(222, 221, 222, 0.51) 103.2%), #fcfcfc;
+  box-shadow: 0px 1px 2px #c0babd, inset -2px -2px 3px rgba(0, 0, 0, 0.13), inset 2px 2px 3px rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.calc-button:active {
+  background: linear-gradient(292.22deg, #fcffff 5.69%, #deddde 103.2%), #fcfcfc;
+}
+
+.double {
+  width: 130px;
+}
+
+.delete {
+  line-height: 60px;
+}
+
+.blue {
+  background: linear-gradient(292.22deg, #d5ffff 5.69%, rgba(183, 214, 218, 0.51) 103.2%), #d5f5f8;
+  box-shadow: 0px 1px 2px #99b3b9, inset -2px -2px 3px rgba(0, 0, 0, 0.13), inset 2px 2px 3px rgba(255, 255, 255, 0.5);
+}
+
+.blue:active {
+  background: linear-gradient(292.22deg, #d5ffff 5.69%, #d5ffff 5.7%, #b7d6da 103.2%), #d5f5f8;
+}
+
+.orange {
+  background: linear-gradient(292.22deg, #fef7f1 5.69%, rgba(224, 194, 198, 0.51) 103.2%), #fee1e4;
+  box-shadow: 0px 1px 2px #c29fa5, inset -2px -2px 3px rgba(0, 0, 0, 0.13), inset 2px 2px 3px rgba(255, 255, 255, 0.5);
+}
+
+.orange:active {
+  background: linear-gradient(292.22deg, #fef7f1 5.69%, #e0c2c6 103.2%), #fee1e4;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(180deg, rgba(252, 252, 252, 0.4) 0%, rgba(252, 252, 252, 0.1) 100%);
+  backdrop-filter: blur(45px);
+  font-size: 16px;
+  line-height: 16px;
+  color: #333;
+}
+
+footer div {
+  width: 1px;
+  height: 22px;
+  background-color: #333;
+}
+
+a {
+  color: #333;
+}
