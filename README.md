@@ -1,4 +1,4 @@
-![Project Cover](https://i.imgur.com/4EkqkO5.png)
+![Project Cover](https://i.imgur.com/MdRjEti.png)
 
 **Demo link**: [https://virtohardiman.github.io/calculator-website/](https://virtohardiman.github.io/calculator-website/)
 
